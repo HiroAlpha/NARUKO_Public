@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hiro_a.naruko">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="NARUKO"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+
+        <!--    ログイン画面-->
+        <activity android:name=".activity.ActivitySelectLogin"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--    登録画面-->
+        <activity android:name=".activity.ActivityRegister"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--    メニュー画面-->
+        <activity android:name=".activity.ActivityMenu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <!--    NARUKO画面-->
+        <activity android:name=".activity.ActivityNaruko"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--    設定選択画面-->
+        <activity android:name=".activity.ActivitySettingList"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme"
+            android:label="設定"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--    ユーザー設定画面-->
+        <activity android:name=".activity.ActivitySettingUserProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme"
+            android:label="ユーザー情報"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--    ユーザー設定編集画面-->
+        <activity android:name=".activity.ActivitySettingUserProfile_Edit"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme"
+            android:label="ユーザー情報編集"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--    利用規約画面-->
+        <activity android:name=".activity.ActivitySettingPolicy"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme"
+            android:label="利用規約"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+    </application>
+
+</manifest>

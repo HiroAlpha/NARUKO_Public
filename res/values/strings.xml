@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">NARUKO</string>
+    <string name="CONSUMER_KEY" translatable="false">null</string>
+    <string name="CONSUMER_KEY_SECRET" translatable="false">null</string>
+    <string name="ENC_KEY" translatable="false">null</string>
+
+    <string name="PROVIDER_KEY_EMAIL" translatable="false">EMAIL_LOGIN</string>
+    <string name="PROVIDER_KEY_TWITTER" translatable="false">TWITTER_LOGIN</string>
+
+    <string name="ALERT_PERMISSION_NOT_AVIALABLE" translatable="false">Permission Not Available</string>
+    <string name="ALERT_READ_EXTERNAL_STORAGE" translatable="false">READ_EXTERNAL_STORAGE</string>
+    <string name="ALERT_WRITE_EXTERNAL_STORAGE" translatable="false">WRITE_EXTERNAL_STORAGE</string>
+    <string name="ALERT_NETWORK_STATE" translatable="false">NETWORK_STATE</string>
+    <string name="ALERT_WIFI_STATE" translatable="false">WIFI_STATE</string>
+    <string name="ALERT_INTERNET" translatable="false">INTERNET</string>
+
+    <!--    contentDescription-->
+    <string name="logo_image" translatable="false">logo_image</string>
+    <string name="type_message" translatable="false">type_message</string>
+    <string name="send_message" translatable="false">send_message</string>
+    <string name="background_image" translatable="false">background_image</string>
+    <string name="item_image" translatable="false">item_image</string>
+    <string name="center_image" translatable="false">center_image</string>
+    <string name="edit_image" translatable="false">change_image</string>
+    <string name="color_image" translatable="false">color_image</string>
+    <string name="option_image" translatable="false">option_image</string>
+
+    <!--    サンプルテキスト-->
+    <string name="sample_text" translatable="true">サンプルテキスト</string>
+
+    <!--    アカウント作成、ログイン、ルームログイン-->
+    <string name="title_createAccount" translatable="true">アカウント作成</string>
+    <string name="title_email" translatable="true">メールアドレス</string>
+    <string name="title_password" translatable="true">パスワード</string>
+    <string name="title_userName" translatable="true">ユーザー名</string>
+
+    <string name="type_email" translatable="true">メールアドレスを入力</string>
+    <string name="type_password" translatable="true">パスワードを入力</string>
+    <string name="type_passwordLong" translatable="true">パスワードを入力（半角英数8文字以内）</string>
+    <string name="type_passwordAgain" translatable="true">パスワードを入力（確認）</string>
+    <string name="type_userName" translatable="true">ユーザー名を入力（全半角8文字以内）</string>
+    <string name="title_saveLogin" translatable="true">ログイン情報を保存</string>
+
+    <string name="register" translatable="true">登録</string>
+    <string name="login" translatable="true">ログイン</string>
+    <string name="finish" translatable="true">完了</string>
+
+    <!--    ルームメニュー-->
+    <string name="title_favRoom" translatable="true">ルーム</string>
+    <string name="notification_noRoom_hasAdded" translatable="true">チャットルームが追加されいていません</string>
+
+
+    <!--    ルーム検索-->
+    <string name="room_search_byID" translatable="true">IDで検索</string>
+    <string name="room_search" translatable="true">検索</string>
+    <string name="room_filter" translatable="true">並び替え</string>
+    <string name="room_name" translatable="true">ルーム名: </string>
+    <string name="room_created" translatable="true">作成日時: </string>
+    <string name="room_item_fav" translatable="true">NARUKO画面に追加</string>
+    <string name="room_item_copy" translatable="true">IDをコピー</string>
+    <string name="notification_noRoom" translatable="true">チャットルームが作成されていません</string>
+
+    <!--    ルーム作成-->
+    <string name="title_createRoom" translatable="true">ルーム作成</string>
+    <string name="type_roomName" translatable="true">部屋名（全半角15文字以内）</string>
+    <string name="title_passwordIs" translatable="true">パスワードを有効化</string>
+    <string name="type_roomPassword" translatable="true">パスワード（半角英数8文字以内）</string>
+    <string name="createRoom" translatable="true">部屋を作成</string>
+
+
+    <!--    その他-->
+    <string name="next" translatable="true">次へ</string>
+    <string name="now_loading_update" translatable="true">アップデート情報を読み込み中…</string>
+    <string name="not_available" translatable="true">現在未実装です。\n今後のアップデートにご期待ください。</string>
+
+</resources>

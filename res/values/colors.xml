@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F0A4A8</color>
+    <color name="colorPrimary">#5cd868</color>
+    <color name="colorPrimaryDark">#238f2e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorYuuna">#ffc0cb</color>
+    <color name="colorYuunaLight">#e0cfd1</color>
+    <color name="colorTougou">#2e8ced</color>
+    <color name="colorTougouLight">#42c6db</color>
+    <color name="colorHuu">#f3e48a</color>
+    <color name="colorHuuLight">#e6f0bb</color>
+    <color name="colorItsuki">#9ef372</color>
+    <color name="colorItsukiLight">#e1efd7</color>
+    <color name="colorKarin">#f4736a</color>
+    <color name="colorKarinLight">#ead3d4</color>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="MenuItem">
+    <attr name="iconImage" format="reference"/>
+    <attr name="iconText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SelectorItem">
+        <attr name="selectorImage" format="reference"/>
+        <attr name="selectorText" format="string"/>
+        <attr name="selectorTextColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fRoomFav_layout_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <com.hiro_a.naruko.view.BackgroundView-->
+<!--        android:id="@+id/fRoomFav_view_background"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/image_background_naruko" />-->
+
+    <RelativeLayout
+        android:id="@+id/fRoomFav_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fRoomFav_textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/allerta"
+            android:gravity="center_vertical"
+            android:text="@string/title_favRoom"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/fRoomFav_layout_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fRoomFav_recyclerView_rooms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/fRoomFav_textView_noRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:fontFamily="@font/allerta"
+                android:text="@string/notification_noRoom_hasAdded"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:visibility="gone" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
